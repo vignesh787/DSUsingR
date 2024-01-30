@@ -161,5 +161,19 @@ for(i in x){
   }
 }
 
+x=0
+while(x<=5){
+  print(x**2)
+  x=x+1
+}
+
+# Scatterl PLot  , # Bar Plot
+x=1:20
+y=x**2
+plot(x,y,main='X vs Y',xlab='X',ylab='Y',pch=1)
+
+barplot(mark,ylab='marks',main='studends marks',col)
+
+#boxplot
 
 
